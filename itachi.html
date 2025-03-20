@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="itachi.css">
+    <title>Itachi</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="port">Itachi Uchiha</a>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Missions</a>
+            <a href="#education">Learn</a>
+            <a href="#clips">Clips</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="about">
+        <div class="aboutimg">
+            <img src="itachi1.jpg">
+        </div>
+        <div class="content">
+            <h1>It's <span>Itachi Uchiha</span></h1>
+            <h2>Mastered in <span id="auto-type"></span></h2>
+            <p1>Itachi Uchiha (うちはイタチ, Uchiha Itachi) was a shinobi of Konohagakure's Uchiha clan who served as an Anbu Captain. He later became an international criminal after murdering his entire clan, sparing only his younger brother, Sasuke.</p1><br><br>
+            <a href="#"><i class="fa-solid fa-location-dot"> village of Konohagakure</i></a>
+            <h3>“Self-Sacrifice... A Nameless Shinobi Who Protects Peace Within Its Shadow. That Is A True Shinobi.”</h3>
+        </div>
+    </section>
+
+
+    <div class="Skills" id="Skills">
+        <h1>Skills</h1>
+        <div class="box"> 
+            <div class="skill">
+                <nav>
+                    <ul>
+                        <!-- <li><div class="hidden">Susano</div></li> -->
+                        <li>Susano</li>
+                        <li>Izanami Traps</li>
+                        <li>Amaterasu Burns</li>
+                        <li>Demonic Illusion</li>
+                        <li>Crow Clone</li>
+                        <li>Shurikenjutsu</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="about-skill">
+                <div class="Sharingan">
+                    <img src="itachi_mangekyou_sharingan.jpg" alt="Sharingan">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Projects" id="Projects">
+        <h1>Missions</h1>
+        <div class="proj">
+            <div class="pro">
+                <h2>Kazekage Rescue</h2>
+                <p1>It  is an arc in the manga and anime series Naruto. It's part of Part II of the series and is also known as Kazekage Dakkan in the anime. </p1>
+            </div>
+            <div class="pro">
+                <h2>Itachi Pursuit</h2>
+                <p1>It is an arc from Part II of the series. This arc sees the separate attempts of Sasuke Uchiha and Naruto Uzumaki to find Itachi Uchiha.</p1>
+            </div>
+            <div class="pro">
+                <h2>Fated Battle Between Brothers</h2>
+                <p1>It is an arc from Part II of the series. This arc sees the battle between Sasuke Uchiha and his brother Itachi.</p1>
+            </div>
+        </div>
+    </div>
+
+
+    <dv class="educate" id="education">
+        <h1>Learn from Itachi</h1>
+        <div class="line">
+            <div class="checkpoint">
+                <h2>Be calm and think positive.</h2>
+            </div>
+            <div class="checkpoint">
+                <h2>Don't overreact the situation.</h2>
+            </div>
+            <div class="checkpoint">
+                <h2>Don't be selfish try to help other if you got chance.</h2>
+            </div>
+            <div class="checkpoint">
+                <h2>If someone think wrong about you let them think so don't be jealous.</h2>
+            </div>
+            <div class="checkpoint">
+                <h2>Try to keep your secrets hidden inside you.</h2>
+            </div>
+            <div class="checkpoint">
+                <h2>Try to understand other feelings and situations through which they are suffering.</h2>
+            </div>
+            <div class="checkpoint">
+                <h2>To be loyal .</h2>
+            </div>
+        </div>
+    </dv>
+
+
+
+
+
+    <!-- <div class="clips">
+        <h1>Best of Itachi</h1>
+        <div class="video">
+            <video controls src="Sharigan.mp4"></video>
+        </div>
+    </div> -->
+
+
+    <div class="clips" id="clips">
+        <h1>Best of Itachi</h1>
+        <figure>
+            <video controls src="Sharigan.mp4"></video>
+        </figure>
+        <div class="slide">
+            <video  src="Itachi Uchiha (Akatsuki) Opening-Naruto Mobile [4K 60FPS].mp4"></video>
+            <video  src="「 Under The Influence 💕💫」 Itachi Edit 4k.mp4"></video>
+            <video  src="What’s the Meaning - Itachi AMV - playfulkino (720p, h264).mp4"></video>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="Contact" id="contact">
+        <h1>Contact Me</h1>
+        <div class="con">
+            <div class="form">
+                <input type="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="form">
+                <input type="email" name="email" placeholder="Your E-mail ID">
+            </div>
+            <div class="form">
+                <textarea maxlength="10000" class="totext" placeholder="Write something" disabled></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#auto-type', {
+      strings: ["Genjutsu","Mangekyō Sharingan","Tsukuyomi-no-Mikoto"],
+      typeSpeed : 100,
+      backSpeed : 100,
+      looped : true
+    });
+
+
+
+    const figureImg = document.querySelector('figure video');
+    const Imgs = document.querySelectorAll('.slide video');
+
+    Imgs.forEach(function(video) {
+            // console.log(img);
+        video.addEventListener('click',function(e) {
+                // console.log(e.target.src);
+                // console.log(figureImg.src);
+                figureImg.src = e.target.src;
+        })
+    })
+
+//     const observer=new IntersectionObserver((entries)=>{
+//         entries.forEach((entry)=>{
+//             console.log(entry)
+//             if(entry.isIntersecting){
+//                 entry.target.classList.add('show')
+//             }
+//             else{
+//                 entry.target.classList.remove('show')
+//             }
+//         });
+//     });
+
+//     const hiddenElement = document.querySelectorAll('hidden')
+//     hiddenElement.forEach((el)=>observer.observe(el))
+
+//   </script>
+
+
+</body>
+</html>
